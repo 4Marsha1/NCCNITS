@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 0.5rem 2rem;
+}
+
+.logo-container{
+    width: 60px;
+    height: 60px;
+    border-radius: 1rem;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 1rem;
+}
+
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links>div{
+    color: white;
+    padding: 0.8rem 0.5rem;
+    transition: 0.5s ease;
+}
+
+.links>div:hover{
+    border-bottom: 4px solid white;
+}

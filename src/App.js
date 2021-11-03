@@ -1,9 +1,10 @@
 import './App.css';
+import HomeScreen from './containers/HomeScreen';
 
 function App() {
     return (
-        <div className="App">
-            <h1> NCC NITS WEB DEV! </h1>
+        <div>
+            <HomeScreen />
         </div>
     );
 }
