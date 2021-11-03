@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    padding: 2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.links>div{
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.links>span{
+    color: white;
+}
+
+.copyright{
+    color: white;
+}
