@@ -1,5 +1,9 @@
 # NCCNITS
 
+### Figma Link : 
+https://www.figma.com/file/Rsr1u4YSp43by47etChfK8/NCC-NITS?node-id=0%3A1
+### Doc Link : 
+https://docs.google.com/document/d/1YvLJApgERYcyVJQaWi2G_LoQtHzvdvUvdzdiIbsk29g/edit?pli=1
 
 ## FIRST TASK FOR ALL: 
 
