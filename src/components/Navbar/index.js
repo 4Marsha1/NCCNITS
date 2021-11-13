@@ -8,19 +8,20 @@ const Index = () => {
         <div className={styles['navbar']}>
             <div className={styles['logo-container']}>
                 <img className={styles['logo']} src={logo} />
+                <span className={styles['title']}>NCC NITS</span>
             </div>
             <div className={styles['links']}>
                 <div >
                     Home
                 </div>
                 <div >
-                    Alumni
-                </div>
-                <div >
                     About NCC
                 </div>
                 <div >
                     NCC NITS
+                </div>
+                <div >
+                    Alumni
                 </div>
                 <div >
                     FAQS
