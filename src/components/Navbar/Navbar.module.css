@@ -2,14 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #222222;
+    background-color: #02044F;
     padding: 0.5rem 2rem;
 }
 
 .logo-container{
-    width: 60px;
-    height: 60px;
-    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1rem;
 }
 .logo{
     width: 60px;
