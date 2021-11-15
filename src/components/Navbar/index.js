@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './Navbar.module.css';
-
 import logo from '../../uploads/logo.png'
 
-const Index = () => {
+const index = () => {
     return (
         <div className={styles['navbar']}>
             <div className={styles['logo-container']}>
@@ -11,27 +10,18 @@ const Index = () => {
                 <span className={styles['title']}>NCC NITS</span>
             </div>
             <div className={styles['links']}>
-                <div >
-                    Home
-                </div>
-                <div >
-                    About NCC
-                </div>
-                <div >
-                    NCC NITS
-                </div>
-                <div >
-                    Alumni
-                </div>
-                <div >
-                    FAQS
-                </div>
-                <div >
-                    Dev Team
-                </div>
+                <span>Home</span>
+                <span>About NCC</span>
+                <span>NCC NITS</span>
+                <span>Alumni</span>
+                <span>FAQs</span>
+                <span>Dev Team</span>
+            </div>
+            <div className={styles['hamburger']}>
+                <span></span><span></span><span></span>
             </div>
         </div>
     )
 }
 
-export default Index
+export default index
