@@ -1,27 +1,124 @@
 .footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #02044F;
-    padding: 2rem;
+    padding: 2rem 4rem;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-address{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 140px;
+    margin-right: 1rem;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.address>span{
+    color: white;
+}
+
+.social-media{
+    width: 20%;
+}
+
+.social-media-title{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
 }
 
 .links{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
-
-.links>div{
-    color: white;
-    padding: 0.5rem 1rem;
-}
-.links>span{
-    color: white;
+.icon{
+    height: 50px;
+    width: 50px;
 }
 
 .copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.copyright>span{
     color: white;
+}
+
+@media screen and (max-width:540px) {
+    .footer{
+        padding: 1rem;
+    }
+    .content{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .logo-address{
+        margin-bottom: 1rem;
+    }
+    .logo{
+        width: 80px;
+        height: 100px;
+    }
+    .address>span{
+        font-size: 0.8rem;
+    }
+    .social-media{
+        width: 80%;
+    }
+    .social-media-title{
+        font-size: 1.2rem;
+    }
+    .links{
+        margin-top: 0.6rem;
+    }
+    .icon{
+        height: 40px;
+        width: 40px;
+    }
+    .copyright>span{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:540px) and (max-width:768px) {
+    .footer{
+        padding: 1rem 2rem;
+    }
+    .content{
+        width: 100%;
+    }
+    .social-media{
+        width: 30%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .footer{
+        padding: 1rem 2rem;
+    }
+    .social-media{
+        width: 30%;
+    }
+    
 }
