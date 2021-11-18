@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Navbar.module.css';
-import logo from '../../uploads/logo.png'
+import logo from '../../uploads/logo.png';
+import { Link } from 'react-router-dom';
 
 const index = () => {
     return (
@@ -10,12 +11,19 @@ const index = () => {
                 <span className={styles['title']}>NCC NITS</span>
             </div>
             <div className={styles['links']}>
-                <span>Home</span>
-                <span>About NCC</span>
-                <span>NCC NITS</span>
-                <span>Alumni</span>
-                <span>FAQs</span>
-                <span>Dev Team</span>
+                <Link
+                    to='/' style={{ textDecoration: 'none' }}
+                >
+                    <span className={styles['link-tab']}>Home</span>
+                </Link>
+                <span className={styles['link-tab']}>About NCC</span>
+                <span className={styles['link-tab']}>NCC NITS</span>
+                <Link
+                    to='/alumniscreen' style={{ textDecoration: 'none' }}>
+                    <span className={styles['link-tab']}>Alumni</span>
+                </Link>
+                <span className={styles['link-tab']}>FAQs</span>
+                <span className={styles['link-tab']}>Dev Team</span>
             </div>
             <div className={styles['hamburger']}>
                 <span></span><span></span><span></span>
