@@ -19,7 +19,8 @@ const Index = () => {
                     style={{ textDecoration: 'none' }}
                     className={styles['year']}>
                     2015
-                </Link><Link
+                </Link>
+                <Link
                     to={{
                         pathname: '/quotescreen',
                         state: {
