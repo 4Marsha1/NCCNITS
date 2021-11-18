@@ -17,7 +17,11 @@ const index = () => {
                     <span className={styles['link-tab']}>Home</span>
                 </Link>
                 <span className={styles['link-tab']}>About NCC</span>
-                <span className={styles['link-tab']}>NCC NITS</span>
+                <Link
+                    to='/nccnits' style={{ textDecoration: 'none' }}
+                >
+                    <span className={styles['link-tab']}>NCC NITS</span>
+                </Link>
                 <Link
                     to='/alumniscreen' style={{ textDecoration: 'none' }}>
                     <span className={styles['link-tab']}>Alumni</span>
