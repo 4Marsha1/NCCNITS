@@ -2,12 +2,13 @@ import React from 'react';
 import styles from './HomeScreenComponent.module.css';
 import RecentUpdatesComponent from './children/recentUpdates';
 import StrengthDetailsComponent from './children/strengthDetails';
+import Carousel from './children/Carousel/Slider';
 
 const index = () => {
     return (
         <div className={styles['home']}>
             <div className={styles['carousel']}>
-                <img src='https://picsum.photos/400' className={styles['carousel-img']} />
+                <Carousel/>
             </div>
             <span className={styles['quote']}>
                 "The safety, honour & welfare of your country comes first, always & every time. The honour, welfare & comfort of the men you command, comes next. Your own ease, comfort & safety comes last, always & every time. "
