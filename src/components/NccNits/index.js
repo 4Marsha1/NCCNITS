@@ -15,22 +15,23 @@ const Index = () => {
             <div className={styles['council']}>
                 <div className={styles["box"]}>
                     <span className={styles['content-title']}>Central Commander (SD)</span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
+                    <span className={styles['content']}> (SUO)Madhurjya Borgohain 2018-19 </span>
+                    <span className={styles['content']}> (SUO)Biki Mahato 2017-18 </span>
+                    <span className={styles['content']}> (SUO)Kishore Krishna 2016-17 </span>
+                    <span className={styles['content']}> (SUO)Birjon Boro 2015-16 </span>
+                    <span className={styles['content']}> (SUO)Sourab Ghosh 2014-15 </span>
                 </div>
                 <div className={styles["box"]}>
                     <span className={styles['content-title']}>Senior Wing</span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
+                    <span className={styles['content']}> (SUO)Rachna Kumari Bohra 2018-19 </span>
+                    <span className={styles['content']}> (SUO)Dimpi Charleston Baruah 2017-18 </span>
+                    <span className={styles['content']}> (SUO)Shruti Datta Gupta 2016-17 </span>
                 </div>
                 <div className={styles["box"]}>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
+                    <span className={styles['content']}> (CTO)(SD)M.Suraj Singh </span>
                 </div>
                 <div className={styles["box"]}>
-                    <span className={styles['content']}> Lorem ipsum dolor </span>
+                    <span className={styles['content']}> (CTO)(SD)M.Suraj Singh </span>
                 </div>
             </div>
             <div className={styles['hr']}></div>
