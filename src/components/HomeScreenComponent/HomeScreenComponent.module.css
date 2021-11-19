@@ -3,17 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 0rem;
 }
 
 .carousel{
     width: 100%;
+    height: 100%;
+    padding-bottom: 420px;
 }
-.carousel-img{
-    width: 100%;
-    height: 400px;
-}
-
 .quote{
     text-align: center;
     font-size: 1.2rem;
