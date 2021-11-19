@@ -1,22 +1,16 @@
 import React, { useState } from 'react';
-import styles from './Navbar.module.css';
-import logo from '../../uploads/logo.png';
+import styles from './Sidebar.module.css';
 import { Link } from 'react-router-dom';
-import Sidebar from '../sidebar';
 
-const Index = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const handleClick = () => {
-        setIsOpen(!isOpen);
-    }
+const Sidebar = ({ isOpen, handleClick }) => {
 
     return (
-        <>
-            <div className={styles['navbar']}>
-                <div className={styles['logo-container']}>
-                    <img className={styles['logo']} src={logo} />
-                    <span className={styles['title']}>NCC NITS</span>
+        isOpen ?
+            <div className={styles['sidebar']}>
+                <div className={styles['btn-div']}>
+                    <button className={styles['btn']} onClick={handleClick}>
+                        X
+                    </button>
                 </div>
                 <div className={styles['links']}>
                     <Link
@@ -37,17 +31,10 @@ const Index = () => {
                     <span className={styles['link-tab']}>FAQs</span>
                     <span className={styles['link-tab']}>Dev Team</span>
                 </div>
-                {isOpen ? <></>
-                    :
-                    <div className={styles['hamburger']} onClick={handleClick}>
-                        <span></span><span></span><span></span>
-                    </div>}
             </div>
-            {isOpen ? <Sidebar isOpen={isOpen} handleClick={handleClick} />
-                :
-                <></>}
-        </>
-    )
-}
+            :
+            <></>
+    );
+};
 
-export default Index
+export default Sidebar;
