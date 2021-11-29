@@ -1,0 +1,73 @@
+.tab-container{
+    width: 80%;
+    padding: 0.4rem 1rem;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.desc>p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+/* media-query */
+
+@media (min-width:540px) and (max-width:1024px) {
+    .tab-container{
+        width: 90%;
+    }
+    .desc{
+        font-size: 1rem;
+    }
+    .header{
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .desc>p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .tab-container{
+        width: 100%;
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
+    .header{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .title{
+        font-size: 0.9rem;
+        margin-bottom: 0.6rem;
+    }
+    .desc>p{
+        font-size: 0.8rem;
+        margin-bottom: 0.6rem;
+    }
+}

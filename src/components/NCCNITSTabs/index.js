@@ -10,9 +10,9 @@ const index = ({ type }) => {
                 </div>
                 <div className={styles['content']}>
                     <p>
-                        NCC Parade can be mainly observed on the occasion of Independence Day and Republic Day i.e, twice in a year. On 15th August, respected Director sir hoists the Indian flag in front of the new gallery followed by the national anthem. In his speech, the Director Sir, highlights the past year's achievements, raises important issues and calls for further development of the institute. His speech is followed by the voice of Central Commander, NCC who asks for the permission to start the Parade. The Director Sir observes the Platoons of NCC and different hostels. And with the command of Central commander NCC Parade begins followed by different hostels.<br/><br/>
+                        NCC Parade can be mainly observed on the occasion of Independence Day and Republic Day i.e, twice in a year. On 15th August, respected Director sir hoists the Indian flag in front of the new gallery followed by the national anthem. In his speech, the Director Sir, highlights the past year's achievements, raises important issues and calls for further development of the institute. His speech is followed by the voice of Central Commander, NCC who asks for the permission to start the Parade. The Director Sir observes the Platoons of NCC and different hostels. And with the command of Central commander NCC Parade begins followed by different hostels.<br /><br />
 
-                        The celebrations, Parades and Jhankis depicting the culture of India can be observed in the ground in front of the Sports Complex. NCC Parade starts with the command of Central Commander, NCC and is followed by different hostels and security guards platoons.<br/><br/>
+                        The celebrations, Parades and Jhankis depicting the culture of India can be observed in the ground in front of the Sports Complex. NCC Parade starts with the command of Central Commander, NCC and is followed by different hostels and security guards platoons.<br /><br />
 
                         The enthusiam and the courage to serve for the welfare of the nation can be easily observed on the face of each and every individual standing there. The centre of attraction of Republic Day is the "Jhankis". The "Jhankis" is followed by the Parade. It depicts the vast and diverse culture of India including the achievements, developments and the fields that need to be worked upon. Guests from 62 Assam Girls' Bn and 3rd Assam Bn, NCC are invited to judge the performance of NCC and different hostels. NCC has been continuing to secure the "Best Performance" Award. And the whole team of NCC wishes to continue the legacy.
                     </p>
@@ -35,12 +35,12 @@ const index = ({ type }) => {
             <div className={styles['tab']}>
                 <div className={styles['content-2']}>
                     <p><strong>1.PHYSICAL FITNESS TEST</strong>
-                        <br/><br/>
+                        <br /><br />
                         The first round in the enrollment procedure of NCC, NITS is Physical Fitness Test. Under it, an applicant is supposed to submit his/her medical fitness report to ensure that the person is not suffering from any kind of disease. Applicants need to pass the running and drill tests in order to get enrolled as the Cadet of NCC family</p>
                 </div>
                 <div className={styles['content-3']}>
                     <p><strong>2.PERSONAL INTERVIEW</strong>
-                        <br/><br/>
+                        <br /><br />
                         The next and final round of getting enrolled as NCC Cadet includes the Personal Interview of the applicant. It is conducted by the Senior Rank Holders of NCC. Under it, an applicant needs to answer some common questions related to their interest in NCC and "What motivates them to be a part of NCC NITS?".
                     </p>
                 </div>
@@ -49,4 +49,4 @@ const index = ({ type }) => {
     }
 }
 
-export default index
+export default index;
