@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './NccNits.module.css';
-import Tab from '../Tabs';
+import Tab from '../NCCNITSTabs';
 
 const Index = () => {
     const [tab, setTab] = useState(1);

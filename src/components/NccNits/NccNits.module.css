@@ -4,10 +4,12 @@
     align-items: center;
     margin: 2rem 4rem;
 }
+
 .title{
     font-size: 1.4rem;
     font-weight: 600;
 }
+
 .title-underline{
     display: block;
     width: 100px;
@@ -65,7 +67,10 @@
 .tab{
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
+    color: #02044F;
 }
+
 .active-tab{
     background-color: #02044F;
     color: white;
@@ -73,7 +78,10 @@
     padding: 0.4rem 1rem;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
+
+/* media-query */
 
 @media screen and (max-width:540px) {
     .council{
@@ -90,14 +98,25 @@
         font-size: 0.8rem;
     }
     .box{
-        width: 50%;
+        width: 80%;
+        padding: 1rem 2rem;
     }
     .tab{
         font-size: 0.8rem;
         text-align: center;
     }
-
+    .active-tab{
+        text-align: center;
+        background-color: #02044F;
+        color: white;
+        border-radius: 1rem;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
 }
+
 @media (min-width:540px) and (max-width:1024px) {
     .nccnits-container{
         margin: 1rem 0;
@@ -109,11 +128,10 @@
         font-size: 0.8rem;
     }
     .box{
-        width: 20%;
+        width: 40%;
     }
     .tab{
         font-size: 0.8rem;
         text-align: center;
     }
-
 }
