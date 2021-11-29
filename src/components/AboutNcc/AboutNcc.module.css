@@ -89,6 +89,7 @@
     }
 
     .section-navbar{
+        width: 90%;
         flex-wrap: wrap;
         gap: 0.5rem;
     }
@@ -128,6 +129,7 @@
     }
 
     .section-navbar{
+        width: 85%;
         flex-wrap: wrap;
         gap: 1rem;
     }
