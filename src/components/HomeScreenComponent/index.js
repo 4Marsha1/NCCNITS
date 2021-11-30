@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './HomeScreenComponent.module.css';
-import Carousel from '../Carousel';
 import RecentUpdatesComponent from './children/recentUpdates';
 import StrengthDetailsComponent from './children/strengthDetails';
-import Carousel from './children/Carousel/Slider';
+import Carousel from '../Carousel/Slider';
 
 const index = () => {
     return (
