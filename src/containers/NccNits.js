@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import AlumniComponent from '../components/Alumni/AlumniComponent';
 import Navbar from '../components/Navbar';
+import NCCNITSComponent from '../components/NccNits';
 import Footer from '../components/Footer';
 
-class Alumni extends Component {
+class NCCNITS extends React.Component {
     render() {
         return (
             <>
                 <Navbar />
-                <AlumniComponent />
+                <NCCNITSComponent />
                 <Footer />
             </>
         );
     }
 }
 
-export default Alumni;
+export default NCCNITS;

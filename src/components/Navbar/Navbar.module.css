@@ -25,15 +25,15 @@
 
 .links{
     display: flex;
-    width: 35%;
-    justify-content: space-between;
-    align-items: center;
+    width: 40%;
+    justify-content:space-evenly;
+    align-items: flex-end;
 }
 
-.links>span{
+.link-tab{
     color: white;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .hamburger{
@@ -60,14 +60,16 @@
 @media (min-width:540px)and (max-width:768px) {
     .links{
         width: 60%;
+        gap: 0.4rem;
     }
-    .links>span{
+    .link-tab{
         font-size: 0.8rem;
     }
 }
 
-@media (min-width:760px)and (max-width:1300px) {
+@media (min-width:760px)and (max-width:1024px) {
     .links{
         width: 50%;
+        gap:0.8rem;
     }
 }

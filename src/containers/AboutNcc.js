@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import AlumniComponent from '../components/Alumni/AlumniComponent';
 import Navbar from '../components/Navbar';
+import AboutNccComponent from '../components/AboutNcc';
 import Footer from '../components/Footer';
 
-class Alumni extends Component {
+class AboutNCC extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <AlumniComponent />
+                <AboutNccComponent />
                 <Footer />
             </>
         );
     }
 }
 
-export default Alumni;
+export default AboutNCC;

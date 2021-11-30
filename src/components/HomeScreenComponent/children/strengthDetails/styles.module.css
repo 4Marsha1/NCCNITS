@@ -37,6 +37,7 @@
 /* Media-Query */
 @media screen and (max-width:540px) {
     .parent{
+        width: 100%;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
