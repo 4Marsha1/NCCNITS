@@ -75,6 +75,10 @@
     .message-author{
         font-size: 0.7rem;
     }
+    .parent-section{
+        padding: 0 0.2rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media (min-width:540px)and (max-width:768px) {

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeScreen from './containers/HomeScreen';
 import NCCNITS from './containers/NccNits';
 import AlumniScreen from './containers/Alumni';
+import AboutNCC from './containers/AboutNcc';
 
 function App() {
     return (
@@ -13,6 +14,12 @@ function App() {
                     path={'/'}
                     element={<HomeScreen />}
                     key='route-homescreen'
+                />
+                <Route
+                    exact
+                    path={'/aboutncc'}
+                    element={<AboutNCC />}
+                    key='route-aboutncc-screen'
                 />
                 <Route
                     exact
