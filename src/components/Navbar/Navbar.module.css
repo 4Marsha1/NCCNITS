@@ -34,6 +34,12 @@
     color: white;
     font-size: 1rem;
     font-weight: 500;
+    padding-bottom: 0.6rem;
+    transition: 0.5s ease;
+}
+
+.link-tab:hover{
+    border-bottom: 2px solid white;
 }
 
 .hamburger{
@@ -59,15 +65,15 @@
 
 @media (min-width:540px)and (max-width:768px) {
     .links{
-        width: 60%;
-        gap: 0.4rem;
+        width: 100%;
+        gap: 0.2rem;
     }
     .link-tab{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
-@media (min-width:760px)and (max-width:1024px) {
+@media (min-width:768px)and (max-width:1024px) {
     .links{
         width: 50%;
         gap:0.8rem;

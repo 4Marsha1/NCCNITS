@@ -3,6 +3,7 @@ import styles from './HomeScreenComponent.module.css';
 import RecentUpdatesComponent from './children/recentUpdates';
 import StrengthDetailsComponent from './children/strengthDetails';
 import Carousel from '../Carousel/Slider';
+import { Link } from 'react-router-dom';
 
 const index = () => {
     return (
@@ -10,6 +11,7 @@ const index = () => {
             <div className={styles['carousel']}>
                 <Carousel />
             </div>
+            <Link to={'/gallery'} >See More </Link>
             <span className={styles['quote']}>
                 "The safety, honour & welfare of your country comes first, always & every time. The honour, welfare & comfort of the men you command, comes next. Your own ease, comfort & safety comes last, always & every time. "
             </span>
