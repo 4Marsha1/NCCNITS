@@ -33,7 +33,10 @@ const Sidebar = ({ isOpen, handleClick }) => {
                         <span className={styles['link-tab']}>Alumni</span>
                     </Link>
                     <span className={styles['link-tab']}>FAQs</span>
-                    <span className={styles['link-tab']}>Dev Team</span>
+                    <Link
+                        to='/devteam' style={{ textDecoration: 'none' }}>
+                        <span className={styles['link-tab']}>Dev Team</span>
+                    </Link>
                 </div>
             </div>
             :
