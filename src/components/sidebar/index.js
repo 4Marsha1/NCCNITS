@@ -32,7 +32,10 @@ const Sidebar = ({ isOpen, handleClick }) => {
                         to='/alumniscreen' style={{ textDecoration: 'none' }}>
                         <span className={styles['link-tab']}>Alumni</span>
                     </Link>
-                    <span className={styles['link-tab']}>FAQs</span>
+                    <Link
+                        to='/faqs' style={{ textDecoration: 'none' }}>
+                        <span className={styles['link-tab']}>FAQs</span>
+                    </Link>
                     <Link
                         to='/devteam' style={{ textDecoration: 'none' }}>
                         <span className={styles['link-tab']}>Dev Team</span>
