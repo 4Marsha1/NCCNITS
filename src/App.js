@@ -4,6 +4,7 @@ import HomeScreen from './containers/HomeScreen';
 import NCCNITS from './containers/NccNits';
 import AlumniScreen from './containers/Alumni';
 import AboutNCC from './containers/AboutNcc';
+import FAQS from './containers/FAQs';
 import Gallery from './containers/Gallery';
 
 function App() {
@@ -34,6 +35,14 @@ function App() {
                     element={<AlumniScreen />}
                     key='route-alumniscreen'
                 />
+                <Route
+                    exact
+                    path={'/faqs'}
+                    element={<FAQS />}
+                    key='faqs'
+                />
+               
+               
                 <Route
                     exact
                     path={'/gallery'}
