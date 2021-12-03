@@ -38,8 +38,14 @@ const Index = () => {
                         to='/alumniscreen' style={{ textDecoration: 'none' }}>
                         <span className={styles['link-tab']}>Alumni</span>
                     </Link>
-                    <span className={styles['link-tab']}>FAQs</span>
-                    <span className={styles['link-tab']}>Dev Team</span>
+                    <Link
+                        to='/' style={{ textDecoration: 'none' }}>
+                        <span className={styles['link-tab']}>FAQs</span>
+                    </Link>
+                    <Link
+                        to='/devteam' style={{ textDecoration: 'none' }}>
+                        <span className={styles['link-tab']}>Dev Team</span>
+                    </Link>
                 </div>
                 {isOpen ? <></>
                     :

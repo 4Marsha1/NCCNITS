@@ -37,6 +37,7 @@ const Index = () => {
                 <span className={styles['tab']}>NCC Flag</span>
                 <span className={styles['tab']}>NCC Song</span>
                 <span className={styles['tab']}>Centrally Organised Camps</span>
+                <span className={styles['tab']}>Training</span>
                 <span className={styles['tab']}>Certification Programme</span>
             </div>
 

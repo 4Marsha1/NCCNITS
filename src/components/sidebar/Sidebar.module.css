@@ -34,6 +34,7 @@
     font-size: 2rem;
     font-weight:400;
     border: none;
+    cursor: pointer;
 }
 
 .link-tab{
