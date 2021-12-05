@@ -28,8 +28,8 @@ import Shubham from '../../uploads/devteam/Shubham.png';
     },
     {
         id: 3,
-        src: Abhishek_j,
-        name: 'Abhishek',
+        src: Abhishek_j ,
+        name: 'Abhishek Kr. Gupta',
         year: '2nd Year'
     },
     {
