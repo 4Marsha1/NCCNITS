@@ -5,8 +5,8 @@ import NCCNITS from './containers/NccNits';
 import AlumniScreen from './containers/Alumni';
 import AboutNCC from './containers/AboutNcc';
 import FAQS from './containers/FAQs';
-import Gallery from './containers/Gallery';
 import DevTeam from './containers/DevTeam';
+import Gallery from './containers/Gallery';
 
 function App() {
     return (
@@ -40,10 +40,8 @@ function App() {
                     exact
                     path={'/faqs'}
                     element={<FAQS />}
-                    key='faqs'
+                    key='route-faqs'
                 />
-               
-               
                 <Route
                     exact
                     path={'/gallery'}

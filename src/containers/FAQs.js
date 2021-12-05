@@ -4,14 +4,16 @@ import Navbar from '../components/Navbar';
 import FAQComponent from '../components/FAQs';
 import Footer from '../components/Footer';
 
-function FAQs() {
-    return (
-        <div>
-            <Navbar/>
-            <FAQComponent />
-            <Footer/>
-        </div>
-    )
+class FAQs extends Component {
+    render() {
+        return (
+            <>
+                <Navbar />
+                <FAQComponent />
+                <Footer />
+            </>
+        );
+    }
 }
 
 export default FAQs;
