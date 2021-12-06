@@ -33,12 +33,24 @@ const Index = () => {
                 {tab === 2 ?
                     <span className={styles['active-tab']} onClick={() => setValue(2)}>Motto of NCC</span> :
                     <span className={styles['tab']} onClick={() => setValue(2)}>Motto of NCC</span>}
-                <span className={styles['tab']}>NCC Pledge</span>
-                <span className={styles['tab']}>NCC Flag</span>
-                <span className={styles['tab']}>NCC Song</span>
-                <span className={styles['tab']}>Centrally Organised Camps</span>
-                <span className={styles['tab']}>Training</span>
-                <span className={styles['tab']}>Certification Programme</span>
+                {tab === 3 ?
+                    <span className={styles['active-tab']} onClick={() => setValue(3)}>NCC Pledge</span> :
+                    <span className={styles['tab']} onClick={() => setValue(3)}>NCC Pledge</span>}
+                {tab === 4 ?
+                    <span className={styles['active-tab']} onClick={() => setValue(4)} >NCC Flag</span> :
+                    <span className={styles['tab']} onClick={() => setValue(4)}>NCC Flag</span>}
+                {tab === 5 ?
+                    <span className={styles['active-tab']} onClick={() => setValue(5)}>NCC Song</span> :
+                    <span className={styles['tab']} onClick={() => setValue(5)}>NCC Song</span>}
+                {tab === 6 ?
+                    <span className={styles['active-tab']} onClick={() => setValue(6)}>Centrally Organised Camps</span> :
+                    <span className={styles['tab']} onClick={() => setValue(6)}>Centrally Organised Camps</span>}
+                {tab === 7 ?
+                    <span className={styles['active-tab']} onClick={() => setValue(7)}>Training</span> :
+                    <span className={styles['tab']} onClick={() => setValue(7)}>Training</span>}
+                {tab === 8 ?
+                    <span className={styles['tab']} onClick={() => setValue(8)}>Certification Programme</span> :
+                    <span className={styles['tab']} onClick={() => setValue(8)}>Certification Programme</span>}
             </div>
 
             <Tab type={tab} />
