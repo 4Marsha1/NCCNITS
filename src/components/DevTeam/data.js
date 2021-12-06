@@ -1,18 +1,18 @@
 import abhishek from '../../uploads/devteam/abhishek.png';
 import rahul from '../../uploads/devteam/rahul.jpeg';
-import Agneesh from '../../uploads/devteam/Agneesh.png';
-import Abhishek_j from '../../uploads/devteam/Abhishek_j.jpg';
-import Anurag from '../../uploads/devteam/Anurag.jpg';
-import Anindita from '../../uploads/devteam/Anindita.jpg';
-import Ankit from '../../uploads/devteam/Ankit.jpeg';
-import Dharani from '../../uploads/devteam/Dharani.jpeg';
-import Dipayon from '../../uploads/devteam/Dipayon.jpeg';
-import Diya from '../../uploads/devteam/Diya.png';
-import Pritam from '../../uploads/devteam/Pritam.jpeg';
-import Reisha from '../../uploads/devteam/Reisha.jpg';
-import Ridha from '../../uploads/devteam/Ridha.jpeg';
-import Saurav from '../../uploads/devteam/Saurav.jpeg';
-import Shubham from '../../uploads/devteam/Shubham.png';
+import agneesh from '../../uploads/devteam/Agneesh.png';
+import abhishek_j from '../../uploads/devteam/Abhishek_j.jpg';
+import anurag from '../../uploads/devteam/Anurag.jpg';
+import anindita from '../../uploads/devteam/Anindita.jpg';
+import ankit from '../../uploads/devteam/Ankit.jpeg';
+import dharani from '../../uploads/devteam/Dharani.jpeg';
+import dipayon from '../../uploads/devteam/Dipayon.jpeg';
+import diya from '../../uploads/devteam/Diya.png';
+import pritam from '../../uploads/devteam/Pritam.jpeg';
+import reisha from '../../uploads/devteam/Reisha.jpg';
+import ridha from '../../uploads/devteam/Ridha.jpeg';
+import saurav from '../../uploads/devteam/Saurav.jpeg';
+import shubham from '../../uploads/devteam/Shubham.png';
 
      const images = [   
     {    id: 1,
@@ -28,79 +28,79 @@ import Shubham from '../../uploads/devteam/Shubham.png';
     },
     {
         id: 3,
-        src: Abhishek_j ,
+        src: abhishek_j ,
         name: 'Abhishek Kr. Gupta',
         year: '2nd Year'
     },
     {
         id: 4,
-        src: Agneesh Dasgupta,
-        name: 'Agneesh',
+        src: agneesh ,
+        name: 'Agneesh Dasgupta',
         year: '2nd Year'
     },
     {
         id: 5,
-        src: Anurag,
+        src: anurag,
         name: 'Anurag Debnath',
         year: '2nd Year'
     },
     {
         id: 6,
-        src: Anindita,
+        src: anindita,
         name: 'Anindita Kakati',
         year: '2nd Year'
     },
     {
         id: 7,
-        src: Ankit,
+        src: ankit,
         name: 'Ankit Chauhan',
         year: '2nd Year'
     },
     {
         id: 8,
-        src: Dharani,
+        src: dharani,
         name: 'Dharani Pamidimukkala',
         year: '2nd Year'
     },
     {
         id: 9,
-        src: Dipayon,
+        src: dipayon,
         name: 'Dipayon Ghosh',
         year: '2nd Year'
     },
     {
         id: 10,
-        src: Diya,
+        src: diya,
         name: 'Diya Karmakar',
         year: '2nd Year'
     },
     {
         id: 11,
-        src: Pritam,
+        src: pritam,
         name: 'Pritam Biswas',
         year: '2nd Year'
     },
     {
         id: 12,
-        src: Reisha,
+        src: reisha,
         name: 'Reisha Ahmed',
         year: '2nd Year'
     },
     {
         id: 13,
-        src: Ridha,
+        src: ridha,
         name: 'Ridha Rani Pradhan',
         year: '2nd Year'
     },
     {
         id: 14,
-        src: Saurav,
+        src: saurav,
         name: 'Saurav Suman',
         year: '2nd Year'
     },
     {
         id: 15,
-        src: Shubham,
+        src: shubham,
         name: 'Shubham Kr Singh',
         year: '2nd Year'
     }
