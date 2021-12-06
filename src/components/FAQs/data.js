@@ -116,26 +116,26 @@ const faqs = [{
     }, {
         id: 1,
         qns: "21.What is a NCC unit and what is its composition?",
-        ans: " The Groups are further sub-divided into Battalions, each commanded by a Lt Col or its equivalent from the other two Services, and an Officer of the rank of     Lieutenant Colonel or Major as the Administrative Officer. Each Battalion also has a number of Junior Commissioned Officer 's (JCO's) and Non-Commissioned     Officer's (NCO's) known as Permanent Instructors ( PI) Staff , senior-most JCO being of the rank of Subedar Major."
+        ans: " The Groups are further sub-divided into Battalions, each commanded by a Lt Col or its equivalent from the other two Services, and an Officer of the rank of Lieutenant Colonel or Major as the Administrative Officer. Each Battalion also has a number of Junior Commissioned Officer 's (JCO's) and Non-Commissioned Officer's (NCO's) known as Permanent Instructors ( PI) Staff , senior-most JCO being of the rank of Subedar Major."
     },
     {
         id: 1,
         qns: "22.What is the student in NCC known as?",
-        ans: "A student enrolled into NCC is referred to as a Cadet Section 6 of Act XXXI of 1948 refers"
+        ans: "A student enrolled into NCC is referred to as a 'Cadet' Section 6 of Act XXXI of 1948 refers."
     },
     {
         id: 1,
         qns: "23.What in NCC is a Senior Division (SD)?",
-        ans: "That Division of NCC, to which male students from Colleges and Plus Two institutions (XI and XII classes) are enrolled, is referred as a Senior Division (SD)"
+        ans: "That Division of NCC, to which male students from Colleges and Plus Two institutions (XI and XII classes) are enrolled, is referred as a Senior Division (SD)."
     },
     {
         id: 1,
         qns: "24.What in NCC is a Senior Wing (SW)?",
-        ans: " That Division of NCC, to which female students from Colleges and Plus Two institutions (XI and XII classes) are enrolled, is referred as a Senior Wing (SW)"
+        ans: " That Division of NCC, to which female students from Colleges and Plus Two institutions (XI and XII classes) are enrolled, is referred as a Senior Wing (SW)."
     }, {
         id: 1,
         qns: "25.What in NCC is a Junior Division (JD)?",
-        ans: "That Division of NCC, to which male students from schools (of 13 Years or more of age) are enrolled, is referred as a Junior Division (JD)"
+        ans: "That Division of NCC, to which male students from schools (of 13 Years or more of age) are enrolled, is referred as a Junior Division (JD)."
     },
     {
         id: 1,
@@ -195,7 +195,7 @@ const faqs = [{
     {
         id: 1,
         qns: "37.Is it compulsory to wear NCC uniform?",
-        ans: "Yes"
+        ans: "Yes."
     },
     {
         id: 1,
