@@ -1,6 +1,6 @@
 import abhishek from '../../uploads/devteam/abhishek.png';
 import rahul from '../../uploads/devteam/rahul.jpeg';
-import agneesh from '../../uploads/devteam/Agneesh.png';
+import agneesh from '../../uploads/devteam/Agneesh.jpeg';
 import abhishek_j from '../../uploads/devteam/Abhishek_j.jpg';
 import anurag from '../../uploads/devteam/Anurag.jpg';
 import anindita from '../../uploads/devteam/Anindita.jpg';
@@ -14,8 +14,9 @@ import ridha from '../../uploads/devteam/Ridha.jpeg';
 import saurav from '../../uploads/devteam/Saurav.jpeg';
 import shubham from '../../uploads/devteam/Shubham.png';
 
-     const images = [   
-    {    id: 1,
+const images = [
+    {
+        id: 1,
         src: abhishek,
         name: 'Abhishek Bharadwaz',
         year: '3rd Year'
@@ -28,13 +29,13 @@ import shubham from '../../uploads/devteam/Shubham.png';
     },
     {
         id: 3,
-        src: abhishek_j ,
+        src: abhishek_j,
         name: 'Abhishek Kr. Gupta',
         year: '2nd Year'
     },
     {
         id: 4,
-        src: agneesh ,
+        src: agneesh,
         name: 'Agneesh Dasgupta',
         year: '2nd Year'
     },
@@ -104,9 +105,9 @@ import shubham from '../../uploads/devteam/Shubham.png';
         name: 'Shubham Kr Singh',
         year: '2nd Year'
     }
-   
-   
-   
+
+
+
 ]
 
 export default images;
