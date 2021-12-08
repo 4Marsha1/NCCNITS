@@ -14,6 +14,7 @@ import ridha from '../../uploads/devteam/ridha.jpeg';
 import saurav from '../../uploads/devteam/saurav.jpeg';
 import shubham from '../../uploads/devteam/shubham.png';
 
+
      const images = [   
     {    id: 1,
         src: abhishek,
@@ -104,9 +105,6 @@ import shubham from '../../uploads/devteam/shubham.png';
         name: 'Shubham Kr Singh',
         year: '2nd Year'
     }
-   
-   
-   
 ]
 
 export default images;

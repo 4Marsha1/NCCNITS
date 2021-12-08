@@ -20,6 +20,7 @@
 .updates-img{
     width: 30%;
     height: 300px;
+    border-radius: 5px;
 }
 .updates-text{
     width: 50%;

@@ -30,6 +30,27 @@
     margin-bottom: 1rem;
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.logo{
+    width: 160px;
+}
+
+.song{
+    display: flex;
+    justify-content: center;
+}
+.song>p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
 /* media-query */
 
 @media (min-width:540px) and (max-width:1024px) {
@@ -46,7 +67,7 @@
     .title{
         font-size: 1rem;
     }
-    .desc>p{
+    .desc>p, .song>p{
         font-size: 0.9rem;
     }
 }
@@ -70,4 +91,8 @@
         font-size: 0.8rem;
         margin-bottom: 0.6rem;
     }
+    .song>p{
+        font-size: 0.7rem;
+        margin-bottom: 0.8rem;
+}
 }
