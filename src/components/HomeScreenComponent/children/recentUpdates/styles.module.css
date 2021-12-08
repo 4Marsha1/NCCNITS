@@ -87,7 +87,7 @@
     }
     .updates-text{
         width: 90%;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .mobile-view{
         flex-direction: column-reverse;

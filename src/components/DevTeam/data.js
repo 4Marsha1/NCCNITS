@@ -1,22 +1,23 @@
 import abhishek from '../../uploads/devteam/abhishek.png';
 import rahul from '../../uploads/devteam/rahul.jpeg';
-import agneesh from '../../uploads/devteam/agneesh.png';
-import abhishek_j from '../../uploads/devteam/abhishek_j.jpg';
-import anurag from '../../uploads/devteam/anurag.jpg';
-import anindita from '../../uploads/devteam/anindita.jpg';
-import ankit from '../../uploads/devteam/ankit.jpeg';
-import dharani from '../../uploads/devteam/dharani.jpeg';
-import dipayon from '../../uploads/devteam/dipayon.jpeg';
-import diya from '../../uploads/devteam/diya.png';
-import pritam from '../../uploads/devteam/pritam.jpeg';
-import reisha from '../../uploads/devteam/reisha.jpg';
-import ridha from '../../uploads/devteam/ridha.jpeg';
-import saurav from '../../uploads/devteam/saurav.jpeg';
-import shubham from '../../uploads/devteam/shubham.png';
+import agneesh from '../../uploads/devteam/Agneesh.jpeg';
+import abhishek_j from '../../uploads/devteam/Abhishek_j.jpg';
+import anurag from '../../uploads/devteam/Anurag.jpg';
+import anindita from '../../uploads/devteam/Anindita.jpg';
+import ankit from '../../uploads/devteam/Ankit.jpeg';
+import dharani from '../../uploads/devteam/Dharani.jpeg';
+import dipayon from '../../uploads/devteam/Dipayon.jpeg';
+import diya from '../../uploads/devteam/Diya.png';
+import pritam from '../../uploads/devteam/Pritam.jpeg';
+import reisha from '../../uploads/devteam/Reisha.jpg';
+import ridha from '../../uploads/devteam/Ridha.jpeg';
+import saurav from '../../uploads/devteam/Saurav.jpeg';
+import shubham from '../../uploads/devteam/Shubham.png';
 
 
-     const images = [   
-    {    id: 1,
+const images = [
+    {
+        id: 1,
         src: abhishek,
         name: 'Abhishek Bharadwaz',
         year: '3rd Year'
@@ -29,13 +30,13 @@ import shubham from '../../uploads/devteam/shubham.png';
     },
     {
         id: 3,
-        src: abhishek_j ,
+        src: abhishek_j,
         name: 'Abhishek Kr. Gupta',
         year: '2nd Year'
     },
     {
         id: 4,
-        src: agneesh ,
+        src: agneesh,
         name: 'Agneesh Dasgupta',
         year: '2nd Year'
     },
