@@ -5,7 +5,7 @@ import StrengthDetailsComponent from './children/strengthDetails';
 import Carousel from '../Carousel/Slider';
 import { Link } from 'react-router-dom';
 
-const index = ({ recentUpdates }) => {
+const index = ({ recentUpdates, strengthDetails }) => {
 
     const recentUpdatesTabs = recentUpdates.map(recentUpdate =>
         <RecentUpdatesComponent key={recentUpdate.id} recentUpdate={recentUpdate} />
@@ -31,14 +31,9 @@ const index = ({ recentUpdates }) => {
                 {recentUpdatesTabs}
             </div>
             <div className={styles['parent-section']}>
-                <StrengthDetailsComponent title={'NCC-NITS in Figures'}
-                    title1={'SD 3 Assam Battalion'} SD4={38} SD3={42} SD2={29} SD1={43}
-                    title2={'SW 62 Assam Girls Battalion'} SW4={38} SW3={42} SW2={29} SW1={43} />
-            </div>
-            <div className={styles['parent-section']}>
-                <StrengthDetailsComponent title={'Rankholders of NCC NITS'}
-                    title1={'SD 3 Assam Battalion'} SD4={38} SD3={42} SD2={29} SD1={43}
-                    title2={'SW 62 Assam Girls Battalion'} SW4={38} SW3={42} SW2={29} SW1={43} />
+                <span className={styles["title"]}>NCC-NITS in Figures</span>
+                <span className={styles['title-underline']}></span>
+                <StrengthDetailsComponent title={'NCC-NITS in Figures'} strengthDetails={strengthDetails} />
             </div>
         </div>
     )
