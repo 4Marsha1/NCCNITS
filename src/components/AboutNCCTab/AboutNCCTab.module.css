@@ -40,15 +40,18 @@
     width: 160px;
 }
 
-.song{
-    display: flex;
-    justify-content: center;
+ul{
+    list-style-type: none;
 }
-.song>p{
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center>p{
     text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
 }
 
 /* media-query */
@@ -67,7 +70,7 @@
     .title{
         font-size: 1rem;
     }
-    .desc>p, .song>p{
+    .desc>p{
         font-size: 0.9rem;
     }
 }
@@ -91,8 +94,4 @@
         font-size: 0.8rem;
         margin-bottom: 0.6rem;
     }
-    .song>p{
-        font-size: 0.7rem;
-        margin-bottom: 0.8rem;
-}
 }
