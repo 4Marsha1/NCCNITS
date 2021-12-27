@@ -3,12 +3,18 @@ import Navbar from '../components/Navbar';
 import NCCNITSComponent from '../components/NccNits';
 import Footer from '../components/Footer';
 
+import data from '../data/NccNits/data';
+import council from '../data/NccNits/council';
+
 class NCCNITS extends React.Component {
     render() {
         return (
             <>
                 <Navbar />
-                <NCCNITSComponent />
+                <NCCNITSComponent
+                    data={data}
+                    council={council}
+                />
                 <Footer />
             </>
         );
