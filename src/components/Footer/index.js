@@ -22,9 +22,15 @@ const index = () => {
                 <div className={styles['social-media']}>
                     <span className={styles['social-media-title']}>Follow Us:</span>
                     <div className={styles['links']}>
-                        <Instagram className={styles['icon']} />
-                        <Facebook className={styles['icon']} />
-                        <Twitter className={styles['icon']} />
+                        <a href='https://www.instagram.com/ncc_nits/' target='_blank' >
+                            <Instagram className={styles['icon']} />
+                        </a>
+                        <a href='https://www.facebook.com/groups/513797505393811' target='_blank'>
+                            <Facebook className={styles['icon']} />
+                        </a>
+                        <a href='https://twitter.com/ncc_nits' target='_blank'>
+                            <Twitter className={styles['icon']} />
+                        </a>
                     </div>
                 </div>
             </div>

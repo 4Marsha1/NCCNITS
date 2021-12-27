@@ -6,7 +6,7 @@ const Index = ({ togglePopup, quotes }) => {
         return (
             <div className={styles["card"]}>
                 <span className={styles['desc']}>
-                    <i>"{quote.description}"</i>
+                    <i>{quote.description}</i>
                 </span>
                 <span className={styles['title']}>
                     - {quote.title}

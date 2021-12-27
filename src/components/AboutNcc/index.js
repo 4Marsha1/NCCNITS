@@ -3,6 +3,8 @@ import styles from './AboutNcc.module.css';
 import Tab from '../AboutNCCTab';
 import logo from '../../uploads/logo.png';
 
+import ToTheTopBtn from '../ToTheTop';
+
 const Index = ({ data }) => {
 
     const heading = data.filter(section => section.tab == 0);
@@ -19,6 +21,7 @@ const Index = ({ data }) => {
 
     return (
         <div className={styles['container']}>
+            <ToTheTopBtn />
             <img className={styles['logo']} src={logo} alt='ncc logo' />
             <span className={styles['header']}>{header}</span>
             <div className={styles['desc-container']}>

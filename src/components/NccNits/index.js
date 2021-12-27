@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './NccNits.module.css';
 import Tab from '../NCCNITSTabs';
+import ToTheTopBtn from '../ToTheTop';
 
 const Index = ({ data, council }) => {
 
@@ -16,6 +17,7 @@ const Index = ({ data, council }) => {
 
     return (
         <div className={styles['nccnits-container']}>
+            <ToTheTopBtn />
             <span className={styles['title']}>Meet the Council</span>
             <span className={styles['title-underline']}></span>
             <div className={styles['council']}>

@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Devteam.module.css';
-import images from './data';
+import ToTheTopBtn from '../ToTheTop';
 
-const Index = () => {
+const Index = ({ data }) => {
 
-    const cards = images.map(image => {
+    const cards = data.map(image => {
         return (
             <div className={styles['card']} key={image.id}>
                 <img className={styles['img']} src={image.src} />
@@ -16,6 +16,7 @@ const Index = () => {
 
     return (
         <div className={styles['container']}>
+            <ToTheTopBtn />
             {cards}
         </div>
     )

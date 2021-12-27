@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 import styles from './Alumni.Module.css';
-import Popup from '../../AlumniPopup';
-import quoteList from '../data';
+import Popup from '../AlumniPopup';
+import ToTheTopBtn from '../ToTheTop';
 
-const Index = () => {
+const Index = ({ data }) => {
     const [tab, setTab] = useState(1);
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     const [quotes, setQuotes] = useState([]);
 
     const handleClick = (num) => {
         setTab(num);
-        const q = quoteList.filter((quote) => quote.cat == num);
+        const q = data.filter((quote) => quote.cat == num);
         setQuotes(q);
         setIsPopupOpen(!isPopupOpen);
     }
 
-    console.log(quotes);
     return (
         <div className={styles['alumni-component']}>
+            <ToTheTopBtn />
             <span className={styles['title']}>Alumni</span>
             <span className={styles['title-underline']}></span>
             <div className={styles['years']}>

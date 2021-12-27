@@ -3,6 +3,7 @@ import styles from './HomeScreenComponent.module.css';
 import RecentUpdatesComponent from './children/recentUpdates';
 import StrengthDetailsComponent from './children/strengthDetails';
 import Carousel from '../Carousel/Slider';
+import ToTheTopBtn from '../ToTheTop';
 import { Link } from 'react-router-dom';
 
 const index = ({ recentUpdates, strengthDetails }) => {
@@ -13,6 +14,7 @@ const index = ({ recentUpdates, strengthDetails }) => {
 
     return (
         <div className={styles['home']}>
+            <ToTheTopBtn />
             <div className={styles['carousel']}>
                 <Carousel />
             </div>
