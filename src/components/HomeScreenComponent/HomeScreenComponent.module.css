@@ -74,9 +74,24 @@
     margin-bottom: 2rem;
 }
 
+.title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.title-underline{
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 2rem;
+}
+
 /* Media-Queries ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media screen and (max-width:320px) {
+    .title{
+        font-size: 1.2rem;
+    }
     .home {
         padding: 0rem;
     }
@@ -114,6 +129,9 @@
 }
 
 @media (min-width:321px) and (max-width:540px) {
+    .title{
+        font-size: 1.2rem;
+    }
     .home {
         padding: 0rem;
     }

@@ -3,12 +3,14 @@ import Navbar from '../components/Navbar';
 import HomeScreenComponent from '../components/HomeScreenComponent';
 import Footer from '../components/Footer';
 
+import recentUpdates from '../data/HomeScreen/data'
+
 class HomeScreen extends React.Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <HomeScreenComponent />
+                <HomeScreenComponent recentUpdates={recentUpdates} />
                 <Footer />
             </div>
         );
