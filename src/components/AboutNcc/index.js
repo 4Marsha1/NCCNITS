@@ -3,7 +3,12 @@ import styles from './AboutNcc.module.css';
 import Tab from '../AboutNCCTab';
 import logo from '../../uploads/logo.png';
 
-const Index = () => {
+const Index = ({ data }) => {
+
+    const heading = data.filter(section => section.tab == 0);
+    const { header, content } = heading[0];
+
+    const tabs = data.filter(section => section.tab != 0);
 
     const [tab, setTab] = useState(1);
 
@@ -15,14 +20,9 @@ const Index = () => {
     return (
         <div className={styles['container']}>
             <img className={styles['logo']} src={logo} alt='ncc logo' />
-            <span className={styles['header']}>National Cadet Corps</span>
+            <span className={styles['header']}>{header}</span>
             <div className={styles['desc-container']}>
-                <p className={styles['desc']}>
-                    The National Cadet Corps is the Indian military cadet corps with its head Quarters at New Delhi.
-                    It is open to school and college students on voluntary basis.The National Cadet Corps in India
-                    is a voluntary organization which recruits cadets from high schools, colleges and Universities
-                    all over India. The Cadets are given basic military training in small arms and parades. The officers and cadets have no liability for active military service once they complete their course but are given preference over normal candidates during selections based on the achievements in the corps.
-                </p>
+                <p className={styles['desc']}>{content}</p>
             </div>
             <div className={styles['hr']}></div>
 
@@ -53,7 +53,7 @@ const Index = () => {
                     <span className={styles['tab']} onClick={() => setValue(8)}>Certification Programme</span>}
             </div>
 
-            <Tab type={tab} />
+            <Tab type={tab} tabs={tabs} />
         </div>
     )
 }
