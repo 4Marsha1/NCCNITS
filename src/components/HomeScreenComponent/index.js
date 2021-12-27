@@ -5,7 +5,12 @@ import StrengthDetailsComponent from './children/strengthDetails';
 import Carousel from '../Carousel/Slider';
 import { Link } from 'react-router-dom';
 
-const index = () => {
+const index = ({ recentUpdates }) => {
+
+    const recentUpdatesTabs = recentUpdates.map(recentUpdate =>
+        <RecentUpdatesComponent key={recentUpdate.id} recentUpdate={recentUpdate} />
+    )
+
     return (
         <div className={styles['home']}>
             <div className={styles['carousel']}>
@@ -21,7 +26,9 @@ const index = () => {
                 <br /><span className={styles['message-author']}>Message by -62Assam BN-colonel srinath Sharma</span>
             </div>
             <div className={styles['parent-section']}>
-                <RecentUpdatesComponent />
+                <span className={styles['title']}>Recent Updates</span>
+                <span className={styles['title-underline']}></span>
+                {recentUpdatesTabs}
             </div>
             <div className={styles['parent-section']}>
                 <StrengthDetailsComponent title={'NCC-NITS in Figures'}
