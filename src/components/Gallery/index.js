@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Gallery.module.css';
-import data from '../data';
+import data from '../../data/Gallery/data';
 
 const Index = () => {
     return (
