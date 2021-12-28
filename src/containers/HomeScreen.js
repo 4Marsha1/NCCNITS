@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 
 import recentUpdates from '../data/HomeScreen/data';
 import strengthDetails from '../data/HomeScreen/strength';
+import carouselData from '../data/HomeScreen/carousel';
 
 class HomeScreen extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class HomeScreen extends React.Component {
                 <HomeScreenComponent
                     recentUpdates={recentUpdates}
                     strengthDetails={strengthDetails}
+                    carouselData={carouselData}
                 />
                 <Footer />
             </div>

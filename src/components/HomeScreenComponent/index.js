@@ -6,7 +6,7 @@ import Carousel from '../Carousel/Slider';
 import ToTheTopBtn from '../ToTheTop';
 import { Link } from 'react-router-dom';
 
-const index = ({ recentUpdates, strengthDetails }) => {
+const index = ({ recentUpdates, strengthDetails, carouselData }) => {
 
     const recentUpdatesTabs = recentUpdates.map(recentUpdate =>
         <RecentUpdatesComponent key={recentUpdate.id} recentUpdate={recentUpdate} />
@@ -16,7 +16,7 @@ const index = ({ recentUpdates, strengthDetails }) => {
         <div className={styles['home']}>
             <ToTheTopBtn />
             <div className={styles['carousel']}>
-                <Carousel />
+                <Carousel carouselData={carouselData} />
             </div>
             <Link to={'/gallery'} className={styles['see-more']} ><span className={styles['see-more-text']}>See More</span></Link>
             <span className={styles['quote']}>

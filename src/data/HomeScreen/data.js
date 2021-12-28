@@ -1,8 +1,12 @@
+import diwali from '../../uploads/homeScreen/diwali.jpg';
+import cadre from '../../uploads/homeScreen/cadre.jpg';
+import exam from '../../uploads/homeScreen/exam.jpg';
+
 const recentUpdates = [
     {
         id: 1,
         heading: 'Diwali 2021',
-        img: 'https://picsum.photos/200',
+        img: diwali,
         content: `Diwali, the festival of lights, 
         the celebration of the victory of good over evil, of progress and prosperity, 
         is an important event for all Indians. The NCC NITS family has the vision that the 
@@ -17,7 +21,7 @@ const recentUpdates = [
     {
         id: 2,
         heading: 'B Cadre',
-        img: 'https://picsum.photos/200',
+        img: cadre,
         content: `Every person who has attended a camp will undoubtedly say that the camp days are unlike any other. 
         Away from all the academics, and pressures of life; camp days give the greatest amount of fun and at the same time, 
         prepare us to be better versions of ourselves. For the B certificate cadre, which was for   3 days, cadets had 
@@ -31,7 +35,7 @@ const recentUpdates = [
     {
         id: 3,
         heading: 'B Exam',
-        img: 'https://picsum.photos/200',
+        img: exam,
         content: `NCC Cadets with B certificate get bonus marks in the recruitment in telecommunication 
         department, state services and many other jobs related to security The biggest benefit of B 
         certificate is that now you can enrol for the C certificate of NCC which has many additional perks.
