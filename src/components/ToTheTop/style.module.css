@@ -20,3 +20,17 @@
     transform: scale(1.3);
 
 }
+
+@media screen and (max-width:540px) {
+    .to-top{
+        right: 20%;
+        left: 80%;
+    }
+}
+
+@media (min-width:540px) and (max-width:1024px) {
+    .to-top{
+        right: 10%;
+        left: 90%;
+    }
+}
