@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './Gallery.module.css';
-import data from '../../data/Gallery/data';
 
-const Index = () => {
+const Index = ({ data }) => {
     return (
         <div className={styles['gallery']}>
             {data.length > 0 ?

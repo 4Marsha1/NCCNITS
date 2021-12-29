@@ -5,7 +5,6 @@ import NCCNITS from './containers/NccNits';
 import AlumniScreen from './containers/Alumni';
 import AboutNCC from './containers/AboutNcc';
 import FAQS from './containers/FAQs';
-import DevTeam from './containers/DevTeam';
 import Gallery from './containers/Gallery';
 
 function App() {
@@ -47,12 +46,6 @@ function App() {
                     path={'/gallery'}
                     element={<Gallery />}
                     key='route-gallery'
-                />
-                <Route
-                    exact
-                    path={'/devteam'}
-                    element={<DevTeam />}
-                    key='route-devteam'
                 />
             </Routes>
         </BrowserRouter >
