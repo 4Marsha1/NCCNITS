@@ -17,8 +17,12 @@ const index = ({ recentUpdates, strengthDetails, carouselData }) => {
             <ToTheTopBtn />
             <div className={styles['carousel']}>
                 <Carousel carouselData={carouselData} />
+                <div className={styles['gallery-container']}>
+                    <div className={styles['see-more']}>
+                        <Link to={'/gallery'} className={styles['see-more-text']} >See More</Link>
+                    </div>
+                </div>
             </div>
-            <Link to={'/gallery'} className={styles['see-more']} ><span className={styles['see-more-text']}>See More</span></Link>
             <span className={styles['quote']}>
                 "The safety, honour & welfare of your country comes first, always & every time. The honour, welfare & comfort of the men you command, comes next. Your own ease, comfort & safety comes last, always & every time. "
             </span>

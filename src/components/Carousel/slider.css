@@ -14,6 +14,7 @@
   position: absolute;
   margin: auto;
   overflow: hidden;
+  width: 70%;
 }
 
 .active {
@@ -64,16 +65,16 @@
   width: auto;
   padding: 1rem;
   margin-top: -3rem;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: bold;
   border-radius: 0px 5px 5px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
 
 .prev:hover,
 .next:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(1.3);
   transition: all 0.5s ease-in;
 }
 
@@ -104,5 +105,17 @@
 
 .active-dot,
 .dot:hover {
-  background-color: #02044F;
+  background-color: rgb(236, 228, 228,0.8);
+}
+.dot:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1200px){
+    :root{
+        --heights: 50vh;
+    }
+    .slider-container {
+        width: 100%;
+    }
 }

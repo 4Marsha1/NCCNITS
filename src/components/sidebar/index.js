@@ -36,6 +36,9 @@ const Sidebar = ({ isOpen, handleClick }) => {
                         to='/faqs' style={{ textDecoration: 'none' }}>
                         <span className={styles['link-tab']}>FAQs</span>
                     </Link>
+                    <a href='http://www.nits.ac.in/' target='_blank'>
+                        <span className={styles['link-tab']}>NITS</span>
+                    </a>
                 </div>
             </div>
             :
