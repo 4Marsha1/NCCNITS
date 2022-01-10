@@ -11,6 +11,8 @@ const Index = () => {
         setIsOpen(!isOpen);
     }
 
+    const path = window.location.pathname;
+
     return (
         <>
             <div className={styles['navbar']}>
@@ -22,25 +24,30 @@ const Index = () => {
                     <Link
                         to='/' style={{ textDecoration: 'none' }}
                     >
-                        <span className={styles['link-tab']}>Home</span>
+                        {path === '/' ? <span className={styles['active-link-tab']}>Home</span> :
+                            <span className={styles['link-tab']}>Home</span>}
                     </Link>
                     <Link
                         to='/aboutncc' style={{ textDecoration: 'none' }}
                     >
-                        <span className={styles['link-tab']}>About NCC</span>
+                        {path === '/aboutncc' ? <span className={styles['active-link-tab']}>About NCC</span> :
+                            <span className={styles['link-tab']}>About NCC</span>}
                     </Link>
                     <Link
                         to='/nccnits' style={{ textDecoration: 'none' }}
                     >
-                        <span className={styles['link-tab']}>NCC NITS</span>
+                        {path === '/nccnits' ? <span className={styles['active-link-tab']}>NCC NITS</span> :
+                            <span className={styles['link-tab']}>NCC NITS</span>}
                     </Link>
                     <Link
                         to='/alumniscreen' style={{ textDecoration: 'none' }}>
-                        <span className={styles['link-tab']}>Alumni</span>
+                        {path === '/alumniscreen' ? <span className={styles['active-link-tab']}>Alumni</span> :
+                            <span className={styles['link-tab']}>Alumni</span>}
                     </Link>
                     <Link
                         to='/faqs' style={{ textDecoration: 'none' }}>
-                        <span className={styles['link-tab']}>FAQs</span>
+                        {path === '/faqs' ? <span className={styles['active-link-tab']}>FAQs</span> :
+                            <span className={styles['link-tab']}>FAQs</span>}
                     </Link>
                     <a href='http://www.nits.ac.in/' target='_blank'>
                         <span className={styles['link-tab']}>NITS</span>
