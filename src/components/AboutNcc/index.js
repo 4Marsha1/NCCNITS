@@ -52,7 +52,7 @@ const Index = ({ data }) => {
                     <span className={styles['active-tab']} onClick={() => setValue(7)}>Training</span> :
                     <span className={styles['tab']} onClick={() => setValue(7)}>Training</span>}
                 {tab === 8 ?
-                    <span className={styles['tab']} onClick={() => setValue(8)}>Certification Programme</span> :
+                    <span className={styles['active-tab']} onClick={() => setValue(8)}>Certification Programme</span> :
                     <span className={styles['tab']} onClick={() => setValue(8)}>Certification Programme</span>}
             </div>
 

@@ -1,6 +1,7 @@
 import diwali from '../../uploads/homeScreen/diwali.jpg';
 import cadre from '../../uploads/homeScreen/cadre.jpg';
 import exam from '../../uploads/homeScreen/exam.jpg';
+import vijayDiwas from '../../uploads/homeScreen/vijayDiwas.jpeg'
 
 const recentUpdates = [
     {
@@ -52,7 +53,7 @@ const recentUpdates = [
     {
         id: 4,
         heading: 'Kargil Vijay Diwas',
-        img: 'https://picsum.photos/200',
+        img: vijayDiwas,
         content: `Listen to the stories of the Kargil Warriors. You are not a human being if you don’t get goosebumps. 
         The Kargil War, is probably the most important and intense battle fought by India after Independence. This makes 
         it necessary to celebrate the victory and honor the sacrifices of our heroes. Thus, Kargil Vijay Diwas is an important 

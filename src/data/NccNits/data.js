@@ -1,8 +1,11 @@
+import diwali from '../../uploads/nccnits/diwali.jpg';
+import day from '../../uploads/nccnits/day.jpg'
+
 const nccNits = [
     {
         id: 1,
         heading: 'Independence Day & Republic Day',
-        image: 'https://picsum.photos/200',
+        image: day,
         content: `NCC Parade can be mainly observed on the occasion of Independence Day and Republic Day i.e, twice a year. 
         On 15th August, respected Director Sir hoists the Indian flag in front of the new gallery followed by the National Anthem. 
         In his speech, the Director Sir highlights the past year's achievements, raises important issues, and calls for further 
@@ -24,7 +27,7 @@ const nccNits = [
     {
         id: 2,
         heading: 'Diwali Donation Drive',
-        image: 'https://picsum.photos/200',
+        image: diwali,
         content: `NCC at NITS is an organization cum family engaged in conducting constructive activities for all the cadets under its 
         fold and one of them is <strong> DIWALI DONATION DRIVE </strong>. NCC, NITS proudly holds the responsibility of being future harbingers of the country 
         by actively participating in social activities. In 2021 every Cadet was asked to donate a certain amount of money, which was then 
