@@ -44,9 +44,6 @@ import image43 from '../../uploads/gallery/43.jpeg';
 import image44 from '../../uploads/gallery/44.jpeg';
 import image45 from '../../uploads/gallery/45.jpeg';
 
-
-
-
 const images = [
     {
         id: 1,
@@ -57,157 +54,157 @@ const images = [
         id: 2,
         url: image2
     },
-    
+
     {
         id: 3,
         url: image3
     },
-    
+
     {
         id: 4,
         url: image4
     },
-    
+
     {
         id: 5,
         url: image5
     },
-    
+
     {
         id: 6,
         url: image6
     },
-    
+
     {
         id: 7,
         url: image8
     },
-    
+
     {
         id: 9,
         url: image9
     },
-    
+
     {
         id: 10,
         url: image10
     },
-    
+
     {
         id: 11,
         url: image11
     },
-    
+
     {
         id: 12,
         url: image12
     },
-    
+
     {
         id: 13,
         url: image13
     },
-    
+
     {
         id: 14,
         url: image14
     },
-    
+
     {
         id: 15,
         url: image15
     },
-    
+
     {
         id: 16,
         url: image16
     },
-    
+
     {
         id: 17,
         url: image17
     },
-    
+
     {
         id: 18,
         url: image18
     },
-    
+
     {
         id: 19,
         url: image19
     },
-    
+
     {
         id: 20,
         url: image20
     },
-    
+
     {
         id: 21,
         url: image21
     },
-    
+
     {
         id: 22,
         url: image22
     },
-    
+
     {
         id: 23,
         url: image23
     },
-    
+
     {
         id: 24,
         url: image24
     },
-    
+
     {
         id: 25,
         url: image25
     },
-    
+
     {
         id: 26,
         url: image26
     },
-    
+
     {
         id: 27,
         url: image27
     },
-    
+
     {
         id: 28,
         url: image28
     },
-    
+
     {
         id: 29,
         url: image29
     },
-    
+
     {
         id: 30,
         url: image30
     },
-    
+
     {
         id: 31,
         url: image31
     },
-    
+
     {
         id: 32,
         url: image32
     },
-    
+
     {
         id: 33,
         url: image33
     },
-    
+
     {
         id: 34,
         url: image34
@@ -256,8 +253,8 @@ const images = [
         id: 45,
         url: image45
     },
-    
-   
+
+
 ];
 
 export default images;
