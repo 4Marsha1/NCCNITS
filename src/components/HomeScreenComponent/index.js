@@ -29,7 +29,7 @@ const index = ({ recentUpdates, strengthDetails, carouselData }) => {
             <div className={styles['hr']}></div>
             <div className={styles['message']}>
                 <span className={styles['message-text']}>"The NCC Cadets of NIT Silchar are a class apart. Their professional approach to various NCC activities has fetched accolades during various national level competitions. Their performance has always been consistent and commendable. Due to their high IQ level and a technical bent of mind, they tend to stand out in the crowd and execute the task with a finesse. In addition they possess a good sense of humor, which binds the team together and keeps everyone amused. I wish them loads of good luck and success in all their endeavours."</span>
-                <br /><span className={styles['message-author']}>Message by -62Assam BN-colonel srinath Sharma</span>
+                <br /><span className={styles['message-author']}>Message by - 62Assam BN-colonel srinath Sharma</span>
             </div>
             <div className={styles['parent-section']}>
                 <span className={styles['title']}>Recent Updates</span>
