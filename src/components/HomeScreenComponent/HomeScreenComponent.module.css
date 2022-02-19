@@ -1,195 +1,201 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0rem;
 }
 
 .carousel {
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 2rem;
-    background-color: #f2f4f5;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 2rem;
+  background-color: #f2f4f5;
 }
 
-.gallery-container{
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    z-index: 3;
+.gallery-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 3;
 }
 
-.see-more{
-    background-color: #02044F;
-    padding: 0.4rem 1rem;
-    border-radius: 1rem;
-    z-index: 3;
+.see-more {
+  background-color: #02044f;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  z-index: 3;
 }
-.see-more-text{
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
+.see-more-text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.see-more:hover{
-    transform: scale(1.2);
-    transition: all 0.6s ease;
+.see-more:hover {
+  transform: scale(1.2);
+  transition: all 0.6s ease;
 }
 
 .quote {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding: 2rem;
-    margin: 1rem 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 2rem;
+  margin: 1rem 2rem;
 }
 
 .hr {
-    display: block;
-    height: 3px;
-    width: 95%;
-    background-color: black;
+  display: block;
+  height: 3px;
+  width: 95%;
+  background-color: black;
 }
 
 .message {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 2rem;
-    margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 2rem;
+  margin: 1rem 2rem;
 }
 
 .message-text {
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 500;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .message-author {
-    font-size: 0.9rem;
-    font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .parent-section {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
 }
 
-.title{
-    font-size: 1.4rem;
-    font-weight: 600;
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
 }
-.title-underline{
-    display: block;
-    width: 100px;
-    height: 2px;
-    background-color: black;
-    margin-bottom: 2rem;
+.title-underline {
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 2rem;
 }
 
 /* Media-Queries ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-@media screen and (max-width:320px) {
-    .title{
-        font-size: 1.2rem;
-    }
-    .home {
-        padding: 0rem;
-    }
-    .quote {
-        font-size: 1rem;
-        margin: 1rem 0rem;
-    }
-    .message {
-        padding: 1rem;
-        margin: 1rem 0rem;
-        align-items: center;
-    }
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 1.2rem;
+  }
+  .home {
+    padding: 0rem;
+  }
+  .quote {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+  }
+  .message {
+    padding: 1rem;
+    margin: 1rem 0rem;
+    align-items: center;
+  }
 
-    .message-text {
-        font-size: 0.8rem;
-    }
+  .message-text {
+    font-size: 0.8rem;
+  }
 
-    .message-author {
-        font-size: 0.7rem;
-    }
+  .message-author {
+    font-size: 0.7rem;
+  }
 
-    .parent-section {
-        padding: 0 0.2rem;
-        margin-bottom: 1rem;
-    }
+  .parent-section {
+    padding: 0 0.2rem;
+    margin-bottom: 1rem;
+  }
 }
 
-@media (min-width:321px) and (max-width:540px) {
-    .title{
-        font-size: 1.2rem;
-    }
-    .home {
-        padding: 0rem;
-    }
+@media (min-width: 321px) and (max-width: 540px) {
+  .carousel {
+    align-items: flex-start;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .home {
+    padding: 0rem;
+  }
 
-    .quote {
-        font-size: 1rem;
-        margin: 1rem 0;
-        padding: 0 1rem;
-    }
+  .quote {
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
 
-    .message {
-        padding: 1rem;
-        margin: 1rem 0rem;
-        align-items: center;
-    }
+  .message {
+    padding: 1rem;
+    margin: 1rem 0rem;
+    align-items: center;
+  }
 
-    .message-text {
-        font-size: 0.8rem;
-    }
+  .message-text {
+    font-size: 0.8rem;
+  }
 
-    .message-author {
-        font-size: 0.7rem;
-    }
+  .message-author {
+    font-size: 0.7rem;
+  }
 
-    .parent-section {
-        padding: 0 0.2rem;
-        margin-bottom: 1rem;
-    }
+  .parent-section {
+    padding: 0 0.2rem;
+    margin-bottom: 1rem;
+  }
 
-    .see-more{
-        font-size: 0.8rem;
-        padding: 0.2rem 0.6rem;
-    }
+  .see-more {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+  }
 }
 
-@media (min-width:540px)and (max-width:768px) {
-    .home {
-        width: 100%;
-        padding: 0rem rem;
-    }
+@media (min-width: 540px) and (max-width: 768px) {
+  .carousel {
+    align-items: flex-start;
+  }
+  .home {
+    width: 100%;
+    padding: 0rem rem;
+  }
 
-    .quote {
-        margin: 1rem 0;
-        padding: 0 1rem;
-    }
+  .quote {
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
 
-    .message {
-        padding: 1rem;
-        margin: 1rem 0rem;
-        align-items: center;
-    }
+  .message {
+    padding: 1rem;
+    margin: 1rem 0rem;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width:1200px) {
-    .carousel{
-        height: 50vh;
-    }
-    .gallery-container{
-        width: 95%;
-    }
+@media screen and (max-width: 1200px) {
+  .carousel {
+    height: 50vh;
+  }
+  .gallery-container {
+    width: 95%;
+  }
 }
