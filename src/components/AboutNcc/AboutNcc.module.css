@@ -1,149 +1,149 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 4rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
 }
 
-.logo{
-    width: 160px;
-    height: 200px;
+.logo {
+  width: 160px;
+  height: 200px;
 }
 
-.header{
-    padding: 1rem;
-    font-size: 1.6rem;
-    font-weight: 700;
+.header {
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
-.desc-container{
-    width: 90%;
-    margin-bottom: 3rem;
+.desc-container {
+  width: 90%;
+  margin-bottom: 3rem;
 }
 
-.desc{
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 400;
+.desc {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
-.hr{
-    display: block;
-    background-color: #02044F;
-    width: 90%;
-    height: 3px;
-    margin-bottom: 3rem;
+.hr {
+  display: block;
+  background-color: #02044f;
+  width: 90%;
+  height: 3px;
+  margin-bottom: 3rem;
 }
 
 /* Bottom Section */
 
-.section-navbar{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3rem;
+.section-navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 3rem;
 }
 
-.tab{
-    color: #02044F;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
+.tab {
+  color: #02044f;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.active-tab{
-    background-color: #02044F;
-    color: white;
-    border-radius: 2rem;
-    padding: 0.4rem 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
+.active-tab {
+  background-color: #02044f;
+  color: white;
+  border-radius: 2rem;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 /* Media-Query */
 
-@media screen and (max-width:540px) {
-    .container{
-        padding: 1rem;
-    }
-    .logo{
-        width: 100px;
-        height: 120px;
-    }
-    .header{
-        font-size: 1.2rem;
-    }
-    .desc-container{
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-    .desc{
-        font-size: 0.8rem;
-    }
-    .hr{
-        width: 95%;
-        margin-bottom: 2rem;
-    }
+@media screen and (max-width: 540px) {
+  .container {
+    padding: 1rem;
+  }
+  .logo {
+    width: 100px;
+    height: 120px;
+  }
+  .header {
+    font-size: 1.2rem;
+  }
+  .desc-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .desc {
+    font-size: 0.8rem;
+  }
+  .hr {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
 
-    .section-navbar{
-        width: 90%;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-    .tab{
-        font-size: 0.8rem;
-        text-align: center;
-    }
-    .active-tab{
-        background-color: #02044F;
-        color: white;
-        border-radius: 1rem;
-        padding: 0.2rem 0.6rem;
-        font-size: 0.8rem;
-        font-weight: 500;
-        cursor: pointer;
-    }
+  .section-navbar {
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tab {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .active-tab {
+    background-color: #02044f;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
 }
 
-@media (min-width:540px) and (max-width:1024px) {
-    .logo{
-        width: 130px;
-        height: 160px;
-    }
-    .header{
-        font-size: 1.4rem;
-    }
-    .desc-container{
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-    .desc{
-        font-size: 1rem;
-    }
-    .hr{
-        width: 95%;
-        margin-bottom: 2rem;
-    }
+@media (min-width: 540px) and (max-width: 1024px) {
+  .logo {
+    width: 130px;
+    height: 160px;
+  }
+  .header {
+    font-size: 1.4rem;
+  }
+  .desc-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .desc {
+    font-size: 1rem;
+  }
+  .hr {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
 
-    .section-navbar{
-        width: 85%;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-    .tab{
-        font-size: 1rem;
-        text-align: center;
-    }
-    .active-tab{
-        background-color: #02044F;
-        color: white;
-        border-radius: 1rem;
-        padding: 0.2rem 0.6rem;
-        font-size: 1rem;
-        font-weight: 500;
-        cursor: pointer;
-    }
+  .section-navbar {
+    width: 85%;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .tab {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .active-tab {
+    background-color: #02044f;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
 }
