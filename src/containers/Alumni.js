@@ -3,14 +3,18 @@ import AlumniComponent from '../components/Alumni';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-import data from '../data/Alumni/data'
+import data from '../data/Alumni/data';
+import achievements from '../data/Alumni/achievements';
 
 class Alumni extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <AlumniComponent data={data} />
+                <AlumniComponent
+                    data={data}
+                    achievements={achievements}
+                />
                 <Footer />
             </>
         );

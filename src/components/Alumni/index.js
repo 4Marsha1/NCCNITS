@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import styles from './Alumni.Module.css';
 import Popup from '../AlumniPopup';
 import ToTheTopBtn from '../ToTheTop';
+import AlumniAchievements from '../AlumniAchievements';
 
-const Index = ({ data }) => {
+const Index = ({ data, achievements }) => {
     const [tab, setTab] = useState(1);
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     const [quotes, setQuotes] = useState([]);
@@ -30,6 +31,7 @@ const Index = ({ data }) => {
             </div>
             <span className={styles['title']}>Alumni Achievements</span>
             <span className={styles['title-underline']}></span>
+            <AlumniAchievements achievements={achievements} />
             {isPopupOpen ?
                 <Popup
                     togglePopup={() => setIsPopupOpen(!isPopupOpen)}

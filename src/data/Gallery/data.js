@@ -74,9 +74,12 @@ const images = [
         id: 6,
         url: image6
     },
-
     {
         id: 7,
+        url: image7
+    },
+    {
+        id: 8,
         url: image8
     },
 

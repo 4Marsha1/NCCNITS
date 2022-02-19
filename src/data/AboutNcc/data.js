@@ -1,10 +1,9 @@
-import logo from "../../uploads/logo.png";
 const aboutNcc = [
-  {
-    id: 1,
-    tab: 0,
-    header: "National Cadet Corps",
-    content: `The National Cadet Corps (NCC) is the youth wing of the Indian Armed Forces 
+    {
+        id: 1,
+        tab: 0,
+        header: "National Cadet Corps",
+        content: `The National Cadet Corps (NCC) is the youth wing of the Indian Armed Forces 
         escorted by its headquarters in New Delhi, India. It plays a vital role as India’s second 
         line of defense. It is open to school and college students voluntarily as a Tri-Services 
         Organization, comprising the Army, the Navy, and the Air Wing, engaged in grooming the young 
@@ -13,12 +12,12 @@ const aboutNcc = [
         military training in small arms and drills. The officers and cadets have no obligation for active 
         military service once they complete their course but are given preference over common candidates 
         during selections based on their achievements in the corps.`,
-  },
-  {
-    id: 2,
-    tab: 1,
-    header: "History",
-    content: `The National Cadet Corps in India was formed with the National Cadet Corps Act of 1948. 
+    },
+    {
+        id: 2,
+        tab: 1,
+        header: "History",
+        content: `The National Cadet Corps in India was formed with the National Cadet Corps Act of 1948. 
         It was raised on 15 July 1948. The National Cadet Corps can be considered as a successor of the University 
         Officers Training Corps (UOTC) which was established by the British in 1942. During World War II, the UOTC 
         never came up to the expectations set by the British. This led to the idea that some better organizations 
@@ -33,29 +32,29 @@ const aboutNcc = [
         wars the NCC syllabus was revised. Rather than just being the second line of defence, NCC syllabus laid a greater 
         stress on developing qualities of leadership and Officer-like qualities. The military training which the NCC cadets 
         received was reduced and greater importance was given to other areas like social service and youth-management.`,
-  },
-  {
-    id: 3,
-    tab: 2,
-    header: "UNITY AND DISCIPLINE (Ekta aur Anushasan)",
-    content: `The final selection of the motto for NCC was taken in the 12th CAC meeting held on 12th October 1980.
+    },
+    {
+        id: 3,
+        tab: 2,
+        header: "UNITY AND DISCIPLINE (Ekta aur Anushasan)",
+        content: `The final selection of the motto for NCC was taken in the 12th CAC meeting held on 12th October 1980.
         In living up to its motto, the NCC strives to be and is one of the greatest cohesive forces of the nation, bringing 
         together the youth hailing from different parts of the country and molding them into united and disciplined citizens of the nation.`,
-    desc: [
-      {
-        section: 1,
-        title: "DG's four Cardinal Principles of Discipline",
-        content: `<ul>
+        desc: [
+            {
+                section: 1,
+                title: "DG's four Cardinal Principles of Discipline",
+                content: `<ul>
                     <li>1.	Obey with a smile</li>
                     <li>2.	Be Punctual</li>
                     <li>3.	Work hard and without fuss</li>
                     <li>4.	Make no excuses and tell no lies</li>
                 </ul>`,
-      },
-      {
-        section: 2,
-        title: "AIMS OF NCC",
-        content: `<ul>
+            },
+            {
+                section: 2,
+                title: "AIMS OF NCC",
+                content: `<ul>
                     <li>1. To develop qualities of character, courage, commandership, discipline, leadership, 
                     secular outlook, spirit of adventure and sportsmanship and the ideals of selfless service 
                     among the youth to make them useful citizens.</li>
@@ -65,38 +64,38 @@ const aboutNcc = [
                     <li>4. It also aims to enlighten leadership qualities among the youth who will serve the Nation regardless 
                     of which career they choose.</li>
                 </ul>`,
-      },
-      {
-        section: 3,
-        title: "OATH",
-        content: `"I solemnly promise that I will serve my motherland most truly and loyally and that I will abide by the rules and 
+            },
+            {
+                section: 3,
+                title: "OATH",
+                content: `"I solemnly promise that I will serve my motherland most truly and loyally and that I will abide by the rules and 
                 regulations of the National Cadet Corps. 
                 Further under the command and control of my commanding officer I will participate in every camp most sincerely and wholeheartedly".`,
-      },
-    ],
-  },
-  {
-    id: 4,
-    tab: 1,
-    header: "Pledge",
-    content: `We, the cadets of the national cadet corps, do solemnly pledge that we shall always uphold the unity of India. 
+            },
+        ],
+    },
+    {
+        id: 4,
+        tab: 1,
+        header: "Pledge",
+        content: `We, the cadets of the national cadet corps, do solemnly pledge that we shall always uphold the unity of India. 
         We resolve to be disciplined and responsible citizens of our nation. We shall undertake positive community service in the 
         spirit of selflessness and concern for our fellow beings.`,
-  },
-  {
-    id: 5,
-    tab: 3,
-    header: "NCC Flag",
-    content: `The NCC Flag contains the NCC Crest in gold in the middle, with the letters "NCC" encircled by a wreath of 
+    },
+    {
+        id: 5,
+        tab: 3,
+        header: "NCC Flag",
+        content: `The NCC Flag contains the NCC Crest in gold in the middle, with the letters "NCC" encircled by a wreath of 
         seventeen lotus with a background in Red, Blue and Light blue. Red depicts the Army, Deep Blue depicts the Navy and Light 
         Blue depicts the Air Force. The seventeen lotuses represent the 17 State Directorates. "Unity and Discipline" (Ekta aur Anushasan) 
         is written at the bottom of the NCC Flag. The letters NCC and the NCC crest in gold give the flag a vibrant and attractive look.`,
-  },
-  {
-    id: 6,
-    tab: 3,
-    header: "NCC Song",
-    content: `HUM SAB BHARTIYA HAI, HUM SAB BHARATIYA HAI<br/>
+    },
+    {
+        id: 6,
+        tab: 3,
+        header: "NCC Song",
+        content: `HUM SAB BHARTIYA HAI, HUM SAB BHARATIYA HAI<br/>
                 APNI MANZIL EK HAI,<br/>
                 HA HA HA EK HAI, HO HO HO EK HAI,<br/>
                 HUM SAB BHARTIYA HAI<br/>
@@ -113,12 +112,12 @@ const aboutNcc = [
                 RANG BIRANGE DEEPAK HAI HUM, LEKIN JAGMAG EK HAI<br/>
                 HA HA HA EK HAI, HO HO HO EK HAI<br/>
                 HUM SAB BHARTIYA HAI, HUM SAB BHARTIYA HAI<br/>`,
-  },
-  {
-    id: 7,
-    tab: 3,
-    header: "Centrally Organized Camps",
-    content: `Planned by headquarter DGNCC in consultation with State NCC Directorates which conduct them. Selected cadets, 
+    },
+    {
+        id: 7,
+        tab: 3,
+        header: "Centrally Organized Camps",
+        content: `Planned by headquarter DGNCC in consultation with State NCC Directorates which conduct them. Selected cadets, 
         as per the vacancies allotted to each Directorate, participate in these camps.
         <br/>
         <br/>
@@ -135,12 +134,12 @@ const aboutNcc = [
         <li>10.	Rock Climbing Camp</li>
         <li>11.	Trekking camp</li>
         </ul>`,
-  },
-  {
-    id: 8,
-    tab: 1,
-    header: "Training",
-    content: `The total training period for SD and SW is 3 years with an extension of 1 year permissible & the training period for 
+    },
+    {
+        id: 8,
+        tab: 1,
+        header: "Training",
+        content: `The total training period for SD and SW is 3 years with an extension of 1 year permissible & the training period for 
         JD & JW is of 2 years. Every cadet of the Senior or Junior Division has to undergo service training for a period of at least 
         4 hours per week during the training year. However, no training is carried out during periods when the college or school 
         through which a cadet is enrolled is closed for a vacation. Every cadet of the Senior and Junior Division has undergone service 
@@ -166,19 +165,19 @@ const aboutNcc = [
         <li>Greater involvement of Officers, WTLO's and ANO's.</li>
         <li>Deficiencies in training aids will be made up expeditiously.</li>
         </ol>`,
-  },
-  {
-    id: 9,
-    tab: 2,
-    header: "Certification Programme",
-    content: `The eligibility conditions and the general procedure for the conduct of the Certificate Examination 
+    },
+    {
+        id: 9,
+        tab: 2,
+        header: "Certification Programme",
+        content: `The eligibility conditions and the general procedure for the conduct of the Certificate Examination 
         for Cadets of Senior and Junior Division/Wings NCC(All wings) have been issued by this HQ from time to time. 
         The aim of this Directive is to consolidate all such instructions and revise these, where necessary.`,
-    desc: [
-      {
-        section: 1,
-        title: "Type of Examination —",
-        content: `The type of Certificate Examination and the unit in which these are held are given below
+        desc: [
+            {
+                section: 1,
+                title: "Type of Examination —",
+                content: `The type of Certificate Examination and the unit in which these are held are given below
                 <br/>
                 <br/>
                     <ul>
@@ -186,16 +185,16 @@ const aboutNcc = [
                         <li>Certificate 'B' & 'C' : Senior Division/Wing NCC </li>
                     </ul>
                 `,
-      },
-      {
-        section: 2,
-        title: "Eligibilities for Certificate Examination —",
-        content: ``,
-      },
-      {
-        section: 3,
-        title: 'For "A" Certificate Examination(Junior Division)',
-        content: `<ul>
+            },
+            {
+                section: 2,
+                title: "Eligibilities for Certificate Examination —",
+                content: ``,
+            },
+            {
+                section: 3,
+                title: 'For "A" Certificate Examination(Junior Division)',
+                content: `<ul>
                 <li>1.	Must be in Second year of NCC </li>
                 <li>2.	Must have attended an Annual Training Camp</li>
                 <li>3.	The candidate must have attended a minimum of 75% of total Training periods laid down in the syllabus 
@@ -208,11 +207,11 @@ const aboutNcc = [
                 'A' examination. In all other cases where above conditions are not fulfilled, the cadet must attend a minimum of 
                 75% periods of the first and second year of training". </li>
                 </ul>`,
-      },
-      {
-        section: 4,
-        title: 'For "B" Certificate Examination(Senior Division)',
-        content: `<ul>
+            },
+            {
+                section: 4,
+                title: 'For "B" Certificate Examination(Senior Division)',
+                content: `<ul>
                 <li>1.	The Cadet must be in second year of SD/SW NCC Training </li>
                 <li>2.	Must have attended one Annual Training Camp/NIC/Attachment training with regular Army, Navy, Air Force Units.</li>
                 <li>3.	Cadets possessing 'A' Certificate will be awarded 10 bonus marks.</li>
@@ -226,11 +225,11 @@ const aboutNcc = [
                 of the first and second years of training."</li>
                 <li>5.	An Air Wing Cadet must do a minimum of 10 Glide launches.</li>
                 </ul>`,
-      },
-      {
-        section: 5,
-        title: 'For "C" Certificate Examination(Senior Division)',
-        content: `<ul>
+            },
+            {
+                section: 5,
+                title: 'For "C" Certificate Examination(Senior Division)',
+                content: `<ul>
                 <li>1.	Cadets must have passed 'B' certificate.</li>
                 <li>2.	The Cadet must be in second/third year of SD/SW NCC Training</li>
                 <li>3.	The Cadet must have attended a minimum of 75% of the periods of 3rd year syllabus during the academic session.</li>
@@ -243,21 +242,21 @@ const aboutNcc = [
                 of the first and second year of training."</li>
                 <li>5.	Must have attended two Camp.</li>
                 </ul>`,
-      },
-      {
-        section: 6,
-        title:
-          "Permission to Appear in Certificate Examination after Discharge",
-        content: `Cadets who ceased to be on rolls of NCC may be permitted to appear for certificate 'A' Examination for 
+            },
+            {
+                section: 6,
+                title:
+                    "Permission to Appear in Certificate Examination after Discharge",
+                content: `Cadets who ceased to be on rolls of NCC may be permitted to appear for certificate 'A' Examination for 
                 Junior Division/Wing and 'B' & 'C' for Senior Division/Wing NCC at their own expenses within a period of 12 months of 
                 their discharge from the NCC, provided they were otherwise eligible at the time of their discharge. The ex-cadet so 
                 eligible can appear for the examination at any place in India by applying for the same, alongside with discharge 
                 certificate, to Local Unit Commander. The Group Commander is empowered to accept such requests from the ex-cadets.`,
-      },
-      {
-        section: 7,
-        title: "Re-Test for Improvement of Grading: 'C' Certificate",
-        content: `With a view to give Cadets a chance to apply for the NCC Special Entry Scheme, in case their grading improves, 
+            },
+            {
+                section: 7,
+                title: "Re-Test for Improvement of Grading: 'C' Certificate",
+                content: `With a view to give Cadets a chance to apply for the NCC Special Entry Scheme, in case their grading improves, 
                 it has been ruled that
                 <br/>
                 <br/>
@@ -270,9 +269,9 @@ const aboutNcc = [
                 do not attend the Special Parade/Classes will also be eligible to appear in the re-test. No refreshment or other allowance 
                 will be admissible for this classes/parade/retest.</li>
                 </ul>`,
-      },
-    ],
-  },
+            },
+        ],
+    },
 ];
 
 export default aboutNcc;

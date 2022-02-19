@@ -15,12 +15,15 @@ const Index = ({ togglePopup, quotes }) => {
         )
     })
     return (
-        <div className={styles['popup']}>
-            <button className={styles['btn']} onClick={togglePopup}>X</button>
-            <div className={styles['card-container']}>
-                {card}
+        <div className={styles['container']}>
+            <div className={styles['popup']}>
+                <span className={styles['msg']}>Scroll Down &#8650;</span>
+                <button className={styles['btn']} onClick={togglePopup}>X</button>
+                <div className={styles['card-container']}>
+                    {card}
+                </div>
+                <button className={styles['btn-bottom']} onClick={togglePopup}>Close</button>
             </div>
-            <button className={styles['btn-bottom']} onClick={togglePopup}>Close</button>
         </div>
     )
 }
